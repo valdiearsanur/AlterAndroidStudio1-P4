@@ -34,7 +34,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Wakatobi"
+                    android:text="Wisata di Wakatobi"
                     android:gravity="center"
                     android:textSize="28sp"
                     android:textStyle="bold"
@@ -42,7 +42,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sulawesi Tenggara"
+                    android:text="Form Registrasi"
                     android:gravity="center"
                     android:textSize="14sp"
                     android:textStyle="normal"
@@ -55,14 +55,40 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp"
-            android:layout_below="@id/fr_image">
+            android:layout_below="@id/fr_image"
+            android:weightSum="1">
 
-            <TextView
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kabupaten Wakatobi adalah salah satu kabupaten di Provinsi Sulawesi Tenggara, Indonesia. Ibu kota kabupaten ini terletak di Wangi-Wangi, dibentuk berdasarkan Undang-undang Republik Indonesia Nomor 29 Tahun 2003, tanggal 18 Desember 2003. Kabupaten Wakatobi adalah salah satu kabupaten di Provinsi Sulawesi Tenggara, Indonesia. Ibu kota kabupaten ini terletak di Wangi-Wangi, dibentuk berdasarkan Undang-undang Republik Indonesia Nomor 29 Tahun 2003, tanggal 18 Desember 2003. Kabupaten Wakatobi adalah salah satu kabupaten di Provinsi Sulawesi Tenggara, Indonesia. Ibu kota kabupaten ini terletak di Wangi-Wangi, dibentuk berdasarkan Undang-undang Republik Indonesia Nomor 29 Tahun 2003, tanggal 18 Desember 2003"
-                android:gravity="center"
-                android:layout_gravity="center"/>
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:text="Muhammad Valdie"
+                android:id="@+id/editText"
+                android:hint="Nama Depan" />
+
+            <EditText
+                android:text="Arsanur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:hint="Nama Belakang" />
+
+            <Button
+                android:text="Proses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="Nama : Muhammad Valdie Arsanur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>
